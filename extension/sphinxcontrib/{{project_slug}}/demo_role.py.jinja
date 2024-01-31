@@ -19,7 +19,7 @@ from sphinx.util.docutils import SphinxRole, SphinxTranslator
 logger = logging.getLogger(__name__)
 
 class demo_node(nodes.General, nodes.Element):
-    """the demo node."""
+    """The demo node."""
     pass
 
 class DemoRole(SphinxRole):
@@ -42,7 +42,7 @@ def visit_demo_node_html(translator: SphinxTranslator, node: demo_node) -> None:
     return
 
 def depart_demo_node_html(translator: SphinxTranslator, node: demo_node) -> None:
-    """depart from the html output."""
+    """Depart from the html output."""
     return
 
 
