@@ -2,3 +2,29 @@ Usage
 =====
 
 **{{ project_name }}** usage documentation.
+
+Installation
+------------
+
+Install **{{ project_name }}** directly from pypi using pip:
+
+.. code-block::
+
+    pip install {{ github_repo_name }}
+
+To activate the extention you must add it to your ``conf.py`` file:
+
+.. code-block:: python
+
+    # docs/conf.py
+
+    extensions = [
+        ...
+        "sphinxcontrib.{{ project_slug }}",
+        ...
+    ]
+
+Usage
+-----
+
+Here is what the extention is bringing to your sphinx project.
