@@ -1,11 +1,9 @@
-⚠️ This repository is still underconstruction DO NOT USE ⚠️
-
-Pypackage
-=========
+copier-sphinxcontrib
+====================
 
 .. image:: https://img.shields.io/github/v/release/sphinx-contrib/copier-sphinxcontrib?logo=github&logoColor=white
    :alt: GitHub release (with filter)
-   :target: https://github.com/12rambau/pypackage/releases
+   :target: https://github.com/sphinx-contrib/copier-sphinxcontrib/releases
 
 .. image:: https://img.shields.io/github/actions/workflow/status/12rambau/pypackage/unit.yaml?logo=github&logoColor=white
    :alt: GitHub Workflow Status (with event)
