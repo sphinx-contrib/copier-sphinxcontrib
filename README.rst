@@ -3,17 +3,13 @@
 Pypackage
 =========
 
-.. image:: https://img.shields.io/github/v/release/12rambau/pypackage?logo=github&logoColor=white
+.. image:: https://img.shields.io/github/v/release/sphinx-contrib/copier-sphinxcontrib?logo=github&logoColor=white
    :alt: GitHub release (with filter)
    :target: https://github.com/12rambau/pypackage/releases
 
 .. image:: https://img.shields.io/github/actions/workflow/status/12rambau/pypackage/unit.yaml?logo=github&logoColor=white
    :alt: GitHub Workflow Status (with event)
    :target: https://github.com/12rambau/pypackage/actions/workflows/unit.yaml
-
-.. image:: https://img.shields.io/readthedocs/12rambau-pypackage?logo=readthedocs&logoColor=white
-   :alt: Read the Docs
-   :target: https://12rambau-pypackage.readthedocs.io/en/latest/
 
 
 The skeleton of a ``Sphinx`` extention ready to be shipped in the ``sphinxcontrib`` organisation. It contains:
