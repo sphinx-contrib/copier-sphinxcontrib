@@ -18,9 +18,11 @@ from sphinx.util.docutils import SphinxRole, SphinxTranslator
 
 logger = logging.getLogger(__name__)
 
+
 class demo_node(nodes.General, nodes.Element):
     """the demo node."""
     pass
+
 
 class DemoRole(SphinxRole):
     """The demo sphinxrole interpreter."""
@@ -28,6 +30,7 @@ class DemoRole(SphinxRole):
     def run(self) -> Tuple[List[nodes.Node], List[str]]:
         """Setup the role in the builder context."""
         return [demo_node(text=self.text, location=self.get_source_info())], []
+
 
 def visit_icon_node_unsuported(translator: SphinxTranslator, node: demo_node) -> None:
     """Raise error when the requested output is not supported."""
@@ -40,6 +43,7 @@ def visit_demo_node_html(translator: SphinxTranslator, node: demo_node) -> None:
     """Visit the html output."""
     translator.body.append(f'<b class="demo">{node["text"]}</b>')
     return
+
 
 def depart_demo_node_html(translator: SphinxTranslator, node: demo_node) -> None:
     """depart from the html output."""
